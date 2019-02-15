@@ -13,3 +13,8 @@ run sshd in debug mode
 ### Step 3
 and do something to reproduce the error to see if it shows up in stdout.
 
+### Step 4
+after terminating that process, just remember to start it up as a daemon again.
+```
+service sshd start
+```
